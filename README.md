@@ -40,5 +40,7 @@ javac *.java
 java MetroGui
 
 
+```bash
+
 # To update javadocs: 
 javadoc -d javaDocs MetroGui.java SearchWithSpec.java MetroGraph.java
