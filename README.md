@@ -2,7 +2,7 @@
 
 ![UI demo](demo_img.png)
 
-A small **summer university project**: a desktop GUI that plans journeys on the Manchester Metrolink.  
+A **summer university project**: a desktop GUI that plans journeys on the Manchester Metrolink.  
 Given a CSV of the network (stations, line colours, and travel times), it finds routes for **fastest total time** or **fewest line changes** and prints a readable itinerary.
 
 ---
