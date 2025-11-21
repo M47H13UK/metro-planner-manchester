@@ -39,42 +39,11 @@ java MetroGui
 
 ---
 
-## Data file (CSV)
-
-Place `Metrolink_times_linecolour.csv` alongside the `.java` files.
-
-Example:
-
-```csv
-Start,End,LineColour,Minutes
-Deansgate-Castlefield,St Peter's Square,Purple,2
-St Peter's Square,Exchange Square,Yellow,3
-```
-
----
-
-## Project structure
-
-- `MetroGui.java` – Swing UI; loads CSV, builds the graph, and runs searches.
-- `MetroGraph.java` – Builds the undirected weighted graph from CSV.
-- `SearchWithSpec.java` – Dijkstra implementations for **Fastest Time** and **Least Changes**.
-- `Metrolink_times_linecolour.csv` – Network data.
-
----
-
 ## Customize
 
 - **Change penalty for switching lines:** tweak the “change time” constant in the code (default `2.0` minutes).
 - **Use your own network:** replace the CSV with your data in the same four-column format.
 
----
-
-## Roadmap / ideas
-
-- Different transfer penalties by station  
-- Export itinerary (text/JSON)  
-- A* heuristic option  
-- Runnable JAR release
 
 ---
 
