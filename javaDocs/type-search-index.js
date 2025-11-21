@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"SearchWithSpec.DijkstraAnswer"},{"p":"<Unnamed>","l":"MetroGraph.Edge"},{"p":"<Unnamed>","l":"MetroGraph"},{"p":"<Unnamed>","l":"MetroGui"},{"p":"<Unnamed>","l":"SearchWithSpec"},{"p":"<Unnamed>","l":"SearchWithSpec.StationNode"}];updateSearchResults();
