@@ -9,12 +9,12 @@ Given a CSV of the network (stations, line colours, and travel times), it finds 
 
 ## Features
 
-- 🗺️ **Interactive GUI (Swing)** – choose start and end stations and a routing goal.
-- ⚙️ **Two Dijkstra-based searches**
+- **Interactive GUI (Swing)** – choose start and end stations and a routing goal.
+- **Two Dijkstra-based searches**
   - **Fastest Time** – minimizes total minutes (line changes add a small penalty).
   - **Least Amount of Changes** – minimizes number of colour/line changes; ties broken by time.
-- 📄 **Simple data file** – one CSV in the same folder: `Start, End, LineColour, Minutes`.
-- 🔁 **Undirected weighted graph** – edges added in both directions.
+- **Simple data file** – one CSV in the same folder: `Start, End, LineColour, Minutes`.
+- **Undirected weighted graph** – edges added in both directions.
 
 ---
 
